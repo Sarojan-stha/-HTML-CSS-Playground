@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+.back-button{
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+.next-button{
+    padding: 10px;
+    margin-left: 10px;
+}
+.page{
+    margin: 10px;
+}
+.stretch-button{
+    background-color: green;
+    color: white;
+    font-size: larger;
+    padding: 10px 10px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    transition: padding 0.75s;
+
+}
+.stretch-button:hover{
+    padding: 25px 40px;
+}
+.click-button{
+    padding: 10px;
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    margin 50px;
+}
+.click-button:hover{
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.4);
+}
+.click-button:active{
+    margin: 6px;
+}
