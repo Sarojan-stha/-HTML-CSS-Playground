@@ -1,0 +1,158 @@
+*{
+    font-family: Arial;
+    margin-right: 10px;
+}
+.apply-button{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(10,102,194);
+    color: white;
+    font-weight: bolder;
+    border-radius: 50px ;
+    border: none;
+    cursor: pointer;
+}
+.save-button{
+    height: 30px;
+    width: 60px;
+    border: 1px solid rgb(10,102,194);
+    border-radius: 50px;
+    background-color: white;
+    color: rgb(10,102,194);
+    font-weight: bolder;
+    cursor: pointer;
+}
+.SUBSCRIBE-button{
+    height: 36px;
+    width: 110px;
+    background-color:rgb(189, 3, 3);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: opacity 0.15s;
+
+}
+.SUBSCRIBE-button:hover{
+    opacity: 0.8;
+
+}
+.SUBSCRIBE-button:active{
+    opacity: 0.4;
+}
+.Join-button{
+    height: 36px;
+    width: 110px;
+    background-color: white;
+    color: rgb(16, 92, 255);
+    font-weight: bold;
+    border: 1px solid rgb(16, 92, 255);
+    border-radius: 5px;
+    transition: background-color 1s,color 1s;
+    transition: opacity 0.15s;
+
+}
+.Join-button:hover{
+    background-color: rgb(16, 92, 255);
+    color: white;
+}
+.Join-button:active{
+    opacity: 0.4;
+}
+.Tweet-button{
+    height: 36px;
+    width: 80px;
+    background-color: rgb(16, 92, 255);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  
+    transition: opacity 0.15s;
+
+}
+.Tweet-button:hover{
+     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15);
+}
+.Tweet-button:active{
+    opacity: 0.4;
+}
+.uber-button{
+    height: 36px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.uber-button:hover{
+    opacity: 0.8;
+}
+.uber-button:active{
+    opacity:0.4;
+}
+
+.amazon-button{
+    height: 36px;
+    width: 150px;
+    background-color: rgb(250, 204, 0, 0.986);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.amazon-button:hover{
+    background-color: rgba(250, 150, 0, 0.986);
+}
+
+.github-button{
+    padding: 10px 15px;
+    background-color: rgb(0, 177, 80);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.github-button:hover{
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.15);
+}
+.github-button:active{
+    opacity: 0.5;
+}
+.getstarted-button{
+    height: 36px;
+    width: 120px;
+    background-color: rgb(164, 67, 255);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.getstarted-button:hover{
+    background-color: rgb(97, 4, 185);
+}
+.getstarted-button:active{
+    opacity: 0.4;
+}
+.Download-button{
+    height: 36px;
+    width: 120px;
+    color: grey;
+    font-weight: bolder;
+    background-color: white;
+    border: 1.5px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backgrounf-color 0.5s,color 0.25s;
+}
+.Download-button:hover{
+    background-color: rgb(211, 211, 211);
+    color:white;
+}
+.Download-button:active{
+    opacity: 0.4;
+}
